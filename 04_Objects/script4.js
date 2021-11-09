@@ -6,8 +6,8 @@ function Person(name, age, job) {
     console.log(this.name);
   };
 }
-let person1 = new Person('Pot', 40, 'Tester');
-let person2 = new Person('Joe', 20, 'Doctor');
+let person1 = new Person("Pot", 40, "Tester");
+let person2 = new Person("Joe", 20, "Doctor");
 person1.sayName(); //"Pot"
 person2.sayName(); //"Joe
 
